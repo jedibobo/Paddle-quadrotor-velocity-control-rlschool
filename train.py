@@ -83,6 +83,9 @@ def evaluate(env, agent):
         eval_reward.append(total_reward)
     return np.mean(eval_reward)
 
+def restore_model(num_of_ckptfile):
+    ckpt = 'model_dir/steps_{}.ckpt'.format(num_of_ckptfile)  # 请设置ckpt为你训练中效果最好的一次评估保存的模型文件名称
+    agent.restore(ckpt)
 
 def main():
     # 创建飞行器环境
