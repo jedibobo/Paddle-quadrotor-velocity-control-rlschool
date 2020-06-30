@@ -2,6 +2,16 @@
 
 reinforcement learning using PARL and Quadrotor env from rlschool
 
+## tools used
+
+Python: Python 3.6+
+
+[paddlepaddle](https://github.com/PaddlePaddle/Paddle)
+
+[PARL](https://github.com/PaddlePaddle/PARL)
+
+[rlschools](https://github.com/PaddlePaddle/RLSchool)
+
 ![image](https://github.com/jedibobo/quadrotor-velocity-control-rlschool/blob/master/imgs/demo_velocity_control.gif)
 
 ## To Install prerequisites
@@ -17,9 +27,9 @@ The program will evaluate itself and print the evaluation results in the termina
 ## Restore previous model
 
 **use function restore_model in train.py**
-for example:
+for example:add line in main()
 
-    >>restore_model(570684)
+> > restore_model(570684)
 
 note that if the models in QuadrotorModel is modified, you cannot use previously trained models.
 
