@@ -2,7 +2,7 @@
 
 reinforcement learning using PARL and Quadrotor env from rlschool
 
-![image](https://github.com/jedibobo/quadrotor-velocity-control-rlschool/blob/master/demo_velocity_control.gif)
+![image](https://github.com/jedibobo/quadrotor-velocity-control-rlschool/blob/master/imgs/demo_velocity_control.gif)
 
 ## To Install prerequisites
 
@@ -25,6 +25,6 @@ note that if the models in QuadrotorModel is modified, you cannot use previously
 
 ## results
 
-***Because time is limitted, run process are not totally finished.***
+**_Because time is limitted, run process are not totally finished._**
 
 ![image](https://github.com/jedibobo/quadrotor-velocity-control-rlschool/blob/master/results/2020-06-30%20090011.png)
