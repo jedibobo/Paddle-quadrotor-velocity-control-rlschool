@@ -1,6 +1,6 @@
 # quadrotor-velocity-control-rlschool
 
-reinforcement learning using PARL and Quadrotor env from rlschool
+## reinforcement learning using PARL and Quadrotor env from rlschool
 
 ## tools used
 
